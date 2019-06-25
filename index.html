@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Recherche complète</title>
+    <script src="assets/js/recherche.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <form class="recherche">
+        <strong>Rechercher</strong>
+        <input class="search" type="text" name="site_web" size="40">
+        <strong>sur</strong>
+        <script>
+            document.write('<select name="moteur">' +
+                '<option selected value="0">--- Choisisez votre moteur --- ' +
+                '<option value="0"> ' +
+                '<option value="1">Google ' +
+                '<option value="2">All the Web ' +
+                '<option value="3">Alta Vista ' +
+                '<option value="4">AOL.FR ' +
+                '<option value="5">Caloga.com ' +
+                '<option value="6">dmoz' +
+                '<option value="7">Excite ' +
+                '<option value="8">Francité ' +
+                '<option value="9">HotBot ' +
+                '<option value="10">Lycos ' +
+                '<option value="11">Metacrawler ' +
+                '<option value="12">MSN Search ' +
+                '<option value="14">Overture ' +
+                '<option value="15">ShareLook ' +
+                '<option value="16">La toile du quebec ' +
+                '<option value="18">Voila ' +
+                '<option value="19">Yahoo France ' +
+                '<option value="20">Yahoo international ' +
+                '<option value="21">Google international ' +
+                '<option value="22">Alta Vista Image ' +
+                '<option value="23">All the Web MP3 ' +
+                '</select>')
+        </script>
+        <input class="OK" onclick="multi(this.form)" type="button" value="OK" name="button2" />
+    </form>
+
+    <p> Version améliorée de: <a href="http://www.monjavascript.net/moteur.php">http://www.monjavascript.net/moteur.php</a>
+    </p>
+</body>
